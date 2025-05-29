@@ -1,0 +1,24 @@
+/* src/app/styles/index.css */
+
+/* Basic CSS Reset/Normalize (provided by Material UI's CssBaseline, but good to have a base) */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* Opcional: Define un tamaño de fuente base o una fuente por defecto */
+  font-family: 'Roboto', sans-serif; /* Material UI usa Roboto por defecto */
+}
+
+body {
+  /* Asegura que el color de fondo de la página se vea bien con el tema de MUI */
+  background-color: var(--mui-palette-background-default);
+  color: var(--mui-palette-text-primary);
+}
+
+/* Opcional: Estilos para enlaces si no son gestionados por MUI */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Puedes añadir aquí cualquier otra regla CSS global que necesites */
