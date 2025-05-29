@@ -63,7 +63,7 @@ npm install
 yarn install
 
 ### 3. Ejecutar la Aplicación
-Para iniciar el servidor de desarrollo, que generalmente se ejecuta en http://localhost:5173 (o un puerto similar configurado por Vite):
+Para iniciar el servidor de desarrollo, que generalmente se ejecuta en http://localhost:5173 (o un puerto similar configurado por Vite): 
 
 Bash
 
