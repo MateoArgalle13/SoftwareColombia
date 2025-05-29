@@ -26,7 +26,7 @@ function HeroCard({ hero }) {
 
   return (
     <Card className="hero-card" sx={{ borderRadius: 2, boxShadow: 3 }}>
-      <Box onClick={handleCardClick} className="hero-card__clickable-area">
+      <Box onClick={handleCardClick} role="button" tabIndex={0}  className="hero-card__clickable-area">
         <CardMedia
           component="img"
           className="hero-card__media"
